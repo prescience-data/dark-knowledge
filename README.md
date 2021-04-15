@@ -4,7 +4,9 @@
 
 ## Top Picks
 
+- 2021 - Your Phone is My Proxy - Detecting and Understanding Mobile Proxy Networks 
 - 2020 - Web Runner 2049 - Evaluating Third-Party Anti-Bot Services
+- 2020 - BeCAPTCHA-Mouse - Synthetic Mouse Trajectories and Improved Bot Detection
 - 2020 - Using TLS Fingerprints for OS Identification in Encrypted Traffic
 - 2020 - Using Generative Adversarial Networks to Break and Protect Text CAPTCHAs
 - 2020 - Taming the Shape Shifter - Detecting Anti-Fingerprinting Browsers
@@ -27,6 +29,7 @@
 
 ## Contents
  
+- 2021 - Your Phone is My Proxy - Detecting and Understanding Mobile Proxy Networks 
 - 2021 - The CNAME of the Game - Large-scale Analysis of DNS-based Tracking Evasion
 - 2021 - Tales of FAVICONS and Caches - Persistent Tracking in Modern Browsers
 - 2020 - Web Runner 2049 - Evaluating Third-Party Anti-Bot Services
@@ -45,7 +48,9 @@
 - 2020 - FP-Crawlers - Studying the Resilience of Browser Fingerprinting to Block Crawlers
 - 2020 - Fingerprinting With Atomic Counters in Upcoming Web Graphics Compute APIs
 - 2020 - Fingerprinting the Fingerprinters - Learning to Detect Browser Fingerprinting Behaviors
+- 2020 - Deobfuscation, Unpacking, And Decoding of Obfuscated Malicious JavaScript For Machine Learning Models Detection Performance Improvement 
 - 2020 - Combining Behavioural Biometrics and Session Context Analytics to Enhance Risk Based Static Authentication in Web Applications
+- 2020 - BeCAPTCHA-Mouse - Synthetic Mouse Trajectories and Improved Bot Detection 
 - 2020 - Awakening the Web's Sleeper Agents - Misusing Service Workers for Privacy Leakage
 - 2020 - 3d Red Pill - A Guest-to-Host Escape on QEMUKVM Virtio Devices
 - 2019 - Tracking Versus Security - Investigating the Two Facets of Browser Fingerprinting
@@ -58,6 +63,7 @@
 - 2019 - Even Turing Should Sometimes Not Be Able To Tell - Mimicking Humanoid Usage Behavior for Exploratory Studies of Online Services
 - 2019 - Browser Fingerprinting - A Survey
 - 2019 - Analyzing and Improving the Image Quality of StyleGAN
+- 2019 - After You, Please - Browser Extensions Order Attacks and Countermeasures 
 - 2018 - Who Left Open the Cookie Jar - A Comprehensive Evaluation of Third-Party Cookie Policies
 - 2018 - Who Changed my Browser Settings
 - 2018 - Rendered Insecure - GPU Side Channel Attacks are Practical
@@ -65,6 +71,7 @@
 - 2018 - JavaScript Zero - Real JavaScript and Zero Side-Channel Attacks
 - 2018 - Hiding in The Crowd - An Analysis of the Effectiveness of Browser Fingerprinting At Large Scale
 - 2018 - FP-STALKER - Tracking Browser Fingerprint Evolutions
+- 2018 - Clock Around the Clock Time-Based Device Fingerprinting
 - 2018 - Clock Around the Clock - Time-Based Device Fingerprinting
 - 2017 - The All Seeing Eye - Web to App Intercommunication for Session Fingerprinting in Android
 - 2017 - Most Websites Don't Need to Vibrate - A Cost-Benefit Approach to Improving Browser Security
