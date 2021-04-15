@@ -4,27 +4,26 @@
 
 ## Top Picks
 
-- 2021 - Your Phone is My Proxy - Detecting and Understanding Mobile Proxy Networks 
-- 2020 - Web Runner 2049 - Evaluating Third-Party Anti-Bot Services
+- 2021 - Your Phone is My Proxy - Detecting and Understanding Mobile Proxy Networks ⭐⭐⭐
+- 2020 - Web Runner 2049 - Evaluating Third-Party Anti-Bot Services ⭐⭐⭐
 - 2020 - BeCAPTCHA-Mouse - Synthetic Mouse Trajectories and Improved Bot Detection
-- 2020 - Using TLS Fingerprints for OS Identification in Encrypted Traffic
+- 2020 - Using TLS Fingerprints for OS Identification in Encrypted Traffic 
 - 2020 - Using Generative Adversarial Networks to Break and Protect Text CAPTCHAs
 - 2020 - Taming the Shape Shifter - Detecting Anti-Fingerprinting Browsers
-- 2020 - FP-Crawlers - Studying the Resilience of Browser Fingerprinting to Block Crawlers
+- 2020 - FP-Crawlers - Studying the Resilience of Browser Fingerprinting to Block Crawlers 
 - 2019 - Hacking Google reCAPTCHA v3 using Reinforcement Learning
-- 2019 - Fourier Spectrum Discrepancies in Deep Network Generated Images
-- 2019 - Browser Fingerprinting - A Survey
-- 2018 - Clock Around the Clock - Time-Based Device Fingerprinting
+- 2019 - Fourier Spectrum Discrepancies in Deep Network Generated Images ⭐
+- 2019 - Browser Fingerprinting - A Survey ⭐⭐⭐
+- 2018 - Clock Around the Clock - Time-Based Device Fingerprinting ⭐⭐⭐
 - 2017 - Fantastic Timers and Where to Find Them - High-Resolution Microarchitectural Attacks in JavaScript
 - 2017 - Deterministic Browser
-- 2017 - (Cross-)Browser Fingerprinting via OS and Hardware Level Features
+- 2017 - (Cross-)Browser Fingerprinting via OS and Hardware Level Features ⭐⭐⭐
 - 2017 - FpRandom - Randomizing Core Browser Objects to Break Advanced Device Fingerprinting Techniques
-- 2016 - Browser Fingerprinting - Hraska
-- 2016 - A 1-million-site Measurement and Analysis
+- 2016 - Browser Fingerprinting - Hraska ⭐⭐⭐
+- 2016 - A 1-million-site Measurement and Analysis ⭐⭐
 - 2015 - Tick Tock - Building Browser Red Pills from Timing Side Channels
-- 2015 - The Clock is Still Ticking - Timing Attacks in the Modern Web
-- 2015 - FpGuard - Detection and Prevention of Browser Fingerprinting
-- 2012 - Pixel Perfect - Fingerprinting Canvas in HTML5 
+- 2015 - FpGuard - Detection and Prevention of Browser Fingerprinting ⭐⭐
+- 2012 - Pixel Perfect - Fingerprinting Canvas in HTML5 ⭐⭐⭐
 
 
 ## Contents
