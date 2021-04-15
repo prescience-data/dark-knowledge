@@ -2,8 +2,8 @@
 
 😈📚 A curated library of research papers and presentations for counter-detection and web privacy enthusiasts.
 
-#### Contributing
-Saw an interesting paper you think might fit? Feel free to open an issue or PR!
+### Contributing
+_Saw an interesting paper you think might fit? Feel free to open an issue or PR!_
 
 ## Top Picks
 
