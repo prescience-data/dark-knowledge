@@ -2,6 +2,9 @@
 
 😈📚 A curated library of research papers and presentations for counter-detection and web privacy enthusiasts.
 
+#### Contributing
+Saw an interesting paper you think might fit? Feel free to open an issue or PR!
+
 ## Top Picks
 
 - 2021 - Your Phone is My Proxy - Detecting and Understanding Mobile Proxy Networks ⭐⭐⭐
