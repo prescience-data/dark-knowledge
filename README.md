@@ -28,9 +28,11 @@
 
 ## Contents
  
+Title
 - 2021 - Your Phone is My Proxy - Detecting and Understanding Mobile Proxy Networks 
 - 2021 - The CNAME of the Game - Large-scale Analysis of DNS-based Tracking Evasion
 - 2021 - Tales of FAVICONS and Caches - Persistent Tracking in Modern Browsers
+- 2021 - OS Fingerprinting and Tethering Detection in Mobile Networks.pdf
 - 2020 - Web Runner 2049 - Evaluating Third-Party Anti-Bot Services
 - 2020 - Web Applications Security and Privacy
 - 2020 - Using TLS Fingerprints for OS Identification in Encrypted Traffic
@@ -49,11 +51,14 @@
 - 2020 - Fingerprinting the Fingerprinters - Learning to Detect Browser Fingerprinting Behaviors
 - 2020 - Deobfuscation, Unpacking, And Decoding of Obfuscated Malicious JavaScript For Machine Learning Models Detection Performance Improvement 
 - 2020 - Combining Behavioural Biometrics and Session Context Analytics to Enhance Risk Based Static Authentication in Web Applications
+- 2020 - Browser Fingerprint Standardization Using Rule Based Algorithm and Multi-Class Entropy.pdf
 - 2020 - BeCAPTCHA-Mouse - Synthetic Mouse Trajectories and Improved Bot Detection 
 - 2020 - Awakening the Web's Sleeper Agents - Misusing Service Workers for Privacy Leakage
 - 2020 - 3d Red Pill - A Guest-to-Host Escape on QEMUKVM Virtio Devices
 - 2019 - Tracking Versus Security - Investigating the Two Facets of Browser Fingerprinting
 - 2019 - Rendered Private - Making GLSL Execution Uniform to Prevent WebGL-based Browser Fingerprinting
+- 2019 - Passive OS Fingerprinting by DNS Traffic Analysis.pdf
+- 2019 - Morelian Analysis for Browsers - Making Web Authentication Stronger with Canvas Fingerprinting.pdf
 - 2019 - Leveraging WebAssembly for Numerical JavaScript
 - 2019 - JavaScript Template Attacks - Automatically Inferring Host Information for Targeted Exploits
 - 2019 - Hacking Google reCAPTCHA v3 using Reinforcement Learning
@@ -62,6 +67,7 @@
 - 2019 - Even Turing Should Sometimes Not Be Able To Tell - Mimicking Humanoid Usage Behavior for Exploratory Studies of Online Services
 - 2019 - Browser Fingerprinting - A Survey
 - 2019 - Analyzing and Improving the Image Quality of StyleGAN
+- 2019 - An Investigation on Information Leakage of DNS over TLS.pdf
 - 2019 - After You, Please - Browser Extensions Order Attacks and Countermeasures 
 - 2018 - Who Left Open the Cookie Jar - A Comprehensive Evaluation of Third-Party Cookie Policies
 - 2018 - Who Changed my Browser Settings
@@ -70,8 +76,11 @@
 - 2018 - JavaScript Zero - Real JavaScript and Zero Side-Channel Attacks
 - 2018 - Hiding in The Crowd - An Analysis of the Effectiveness of Browser Fingerprinting At Large Scale
 - 2018 - FP-STALKER - Tracking Browser Fingerprint Evolutions
+- 2018 - Fingerprinting Mobile Browsers.pdf
+- 2018 - Detecting Social Spamming on Facebook Platform.pdf
 - 2018 - Clock Around the Clock Time-Based Device Fingerprinting
 - 2018 - Clock Around the Clock - Time-Based Device Fingerprinting
+- 2017 - Tracking You through DNS Traffic - Linking User Sessions by Clustering with Dirichlet Mixture Model.pdf
 - 2017 - The All Seeing Eye - Web to App Intercommunication for Session Fingerprinting in Android
 - 2017 - Most Websites Don't Need to Vibrate - A Cost-Benefit Approach to Improving Browser Security
 - 2017 - FpRandom - Randomizing Core Browser Objects to Break Advanced Device Fingerprinting Techniques
@@ -93,9 +102,11 @@
 - 2015 - FpGuard - Detection and Prevention of Browser Fingerprinting
 - 2015 - Deterministically Deterring Timing Attacks in Deterland
 - 2014 - The Web Never Forgets - Persistent Tracking Mechanisms in The Wild
+- 2014 - Mobile Device Identification Via Sensor Fingerprinting.pdf
 - 2013 - Mitigating Access-Driven Timing Channels in Clouds using StopWatch
 - 2013 - Cookieless Monster - Exploring the Ecosystem of Web-based Device Fingerprinting
 - 2012 - Pixel Perfect - Fingerprinting Canvas in HTML5
+- 2012 - Combining Mouse and Keystroke Dynamics Biometrics for Risk Based Authentication in Web Environments.pdf
 - 2010 - On the Reliability of Wireless Fingerprinting using Clock Skews
 - 2009 - Cache Missing For Fun and Profit
 - 2008 - An Improved Clock-skew Measurement Technique for Revealing Hidden Services
