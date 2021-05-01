@@ -1,6 +1,10 @@
+![image](https://user-images.githubusercontent.com/65471523/116797719-39b4e800-ab2c-11eb-997b-4fef59e99d17.png)
+
 # Dark Knowledge
 
 😈📚 A curated library of research papers and presentations for counter-detection and web privacy enthusiasts.
+
+
 
 ### Contributing
 _Saw an interesting paper you think might fit? Feel free to open an issue or PR!_
