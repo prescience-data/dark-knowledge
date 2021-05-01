@@ -118,3 +118,4 @@ _Saw an interesting paper you think might fit? Feel free to open an issue or PR!
 - [ ] Add url linking to contents 
 - [ ] Add to top picks
 - [ ] Add author names to contents
+- [ ] Upload notes into new dir for crammers
