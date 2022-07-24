@@ -10,15 +10,15 @@ const _exec = promisify(_execSync)
 export const exec = async (command: string, args: string[] = []) =>
   _exec([command, ...args.map(arg => arg.trim())].join(" "))
 
-export const pdfDir: string = resolve("/pdf", "pdf")
-export const htmlDir: string = resolve("/pdf", "html")
-export const readmePath: string = resolve("/pdf", "README.md")
+const rootDir: string = "/pdf"
+
+export const pdfDir: string = resolve(rootDir, "pdf")
+export const htmlDir: string = resolve(rootDir, "html")
+export const readmePath: string = resolve(rootDir, "README.md")
+export const tocPath: string = resolve(rootDir, "html", "index.html")
 
 export const getPdfFiles = async (): Promise<string[]> =>
   (await readdir(pdfDir)).filter((filename) => filename.endsWith(".pdf"))
-
-export const getHtmlFiles = async (): Promise<string[]> =>
-  (await readdir(htmlDir)).filter((filename) => filename.endsWith(".html"))
 
 export const cleanFilename = (filename: string): string =>
   filename.replace(".pdf", "").replace(".html", "")
@@ -28,6 +28,8 @@ export const getPdfPath = (filename: string): string =>
 
 export const getHtmlPath = (filename: string): string =>
   resolve(htmlDir, `${cleanFilename(filename)}.html`)
+
+const makeArray = (item?: string[]): string => item?.join(", ") ?? ""
 
 export interface FileMeta {
   name: string
@@ -53,3 +55,44 @@ export const chunk = (items: string[], size: number) =>
       builder),
     [] as string[][],
   )
+
+export interface File {
+  name: string
+  meta: FileMeta | undefined
+  year: string
+  title: string
+  authors: string
+  topics: string
+  pdfUrl: string
+  htmlUrl: string
+}
+
+const makePdfUrl = (name: string): string =>
+  `https://github.com/prescience-data/dark-knowledge/blob/main/pdf/${
+    encodeURI(`${name}.pdf`)
+  }`
+const makeHtmlUrl = (name: string): string =>
+  `https://dark-knowledge.pages.dev/${encodeURI(`${name}.html`)}`
+
+export const useFile = (filename: string): File => {
+  const name: string = cleanFilename(filename)
+  const meta: FileMeta | undefined = getFileMeta(name)
+  const [year, ...parts] = name.split("-").map(part => part.trim())
+  const title: string = parts.join(" - ")
+
+  const pdfUrl: string = makePdfUrl(name)
+  const htmlUrl: string = makeHtmlUrl(name)
+  const topics: string = makeArray(meta?.topics)
+  const authors: string = makeArray(meta?.authors)
+
+  return {
+    name,
+    meta,
+    year,
+    title,
+    authors,
+    topics,
+    pdfUrl,
+    htmlUrl,
+  }
+}

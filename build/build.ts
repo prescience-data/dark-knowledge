@@ -1,6 +1,10 @@
 import { convert } from "./convert"
-import { generate } from "./readme"
+import { pages } from "./pages"
+import { readme } from "./readme"
+import { getPdfFiles } from "./support"
 ;(async () => {
-  await convert()
-  await generate()
+  const filenames: string[] = await getPdfFiles()
+  await convert(filenames)
+  await readme(filenames)
+  await pages(filenames)
 })()

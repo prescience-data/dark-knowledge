@@ -1,47 +1,27 @@
 import { writeFile } from "fs-extra"
-import {
-  cleanFilename,
-  FileMeta,
-  getFileMeta,
-  getPdfFiles,
-  readmePath,
-} from "./support"
+import { readmePath, useFile } from "./support"
 
 export interface TemplateOptions {
   filenames: string[]
 }
 
-const encodeUrl = (filename: string, ext: "pdf" | "html"): string =>
-  `https://github.com/prescience-data/dark-knowledge/blob/main/${ext}/${
-    encodeURI(`${filename}.${ext}`)
-  }`
+const makePdfLink = (url: string): string => `[PDF](${url})`
 
-const makeLink = (
-  filename: string,
-  ext: "pdf" | "html",
-): string => `[${ext}](${encodeUrl(filename, ext)})`
-
-const makeArray = (item?: string[]): string => item?.join(", ") ?? ""
+const makeHtmlLink = (url: string): string => `[HTML](${url})`
 
 const makeRow = (filename: string): string => {
-  const name: string = cleanFilename(filename)
-  const meta: FileMeta | undefined = getFileMeta(name)
-  if (meta) {
-    console.log(`Found meta for "${name}".`)
-  }
-  const [year, ...parts] = name.split("-").map(part => part.trim())
-  const title: string = meta?.promoted
-    ? `**${parts.join(" - ")}**`
-    : parts.join(" - ")
+  const { year, title, pdfUrl, htmlUrl, topics, authors } = useFile(
+    filename,
+  )
 
   return [
     ` `,
     year,
     title,
-    makeLink(name, "pdf"),
-    makeLink(name, "html"),
-    makeArray(meta?.topics),
-    makeArray(meta?.authors),
+    makePdfLink(pdfUrl),
+    makeHtmlLink(htmlUrl),
+    topics,
+    authors,
     ` `,
   ].map(column => column.trim()).join(" | ")
 }
@@ -63,9 +43,8 @@ const makeReadme = ({ filenames }: TemplateOptions) =>
     ` `,
   ].map(section => section.trim()).join("\n")
 
-export const generate = async () => {
+export const readme = async (filenames: string[]) => {
   console.log(`Generating README.md`)
-  const filenames: string[] = await getPdfFiles()
 
   const readme: string = makeReadme({ filenames })
 
