@@ -1,4 +1,5 @@
 import { writeFile } from "fs-extra"
+import { minify } from "html-minifier"
 import { readmePath, useFile } from "./support"
 
 export interface TemplateOptions {
@@ -48,5 +49,5 @@ export const readme = async (filenames: string[]) => {
 
   const readme: string = makeReadme({ filenames })
 
-  await writeFile(readmePath, readme)
+  await writeFile(readmePath, minify(readme))
 }

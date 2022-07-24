@@ -27,6 +27,7 @@ export const makeToc = ({ filenames }: PagesOptions) => {
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="_A7DdusQaLlDkL7pfuJ_cPwHjT9tir4SUMrFUe5CjSU" />
     <title>Dark Knowledge</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
