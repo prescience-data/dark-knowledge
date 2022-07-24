@@ -1,0 +1,10 @@
+{
+  "files": [
+    {
+      "name": "2021 - Fingerprinting in Style - Detecting Browser Extensions via Injected Style Sheets",
+      "topics": ["Fingerprint", "Extensions"],
+      "authors": ["Pierre Laperdrix"],
+      "promoted": false
+    }
+  ]
+}
