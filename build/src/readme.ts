@@ -35,7 +35,7 @@ import {TemplateOptions} from "./types";
       `## Contributing`,
       `1. _Found an interesting paper you think might fit? Feel free to open an issue or PR!_`,
       ``,
-      `2. If anyone has time, would be awesome to get PRs adding context to [meta.json](https://github.com/prescience-data/dark-knowledge/blob/main/build/meta.json)`,
+      `2. If anyone has time, would be awesome to get PRs adding context to [meta.json](https://github.com/prescience-data/dark-knowledge/blob/main/build/src/meta.json)`,
       ` `,
       `| Year | Title | PDF | Topics | Authors |`,
       `|------|-------|-----|--------|---------|`,
