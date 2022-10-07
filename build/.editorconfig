@@ -1,0 +1,47 @@
+# Global Settings
+[*]
+charset = utf-8
+end_of_line = lf
+indent_style = space
+indent_size = 2
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+# Markdown Settings
+[*.md]
+insert_final_newline = false
+trim_trailing_whitespace = false
+indent_style = tab
+
+# IntelliJ IDE Settings
+ij_visual_guides = 80, 120, 200
+ij_markdown_min_lines_around_header = 1
+ij_markdown_max_lines_around_header = 1
+ij_markdown_min_lines_between_paragraphs = 1
+ij_markdown_max_lines_between_paragraphs = 1
+ij_markdown_min_lines_around_block_elements = 1
+ij_markdown_max_lines_around_block_elements = 1
+ij_markdown_force_one_space_after_header_symbol = true
+ij_typescript_jsdoc_include_types = true
+ij_typescript_import_merge_members = true
+ij_typescript_line_comment_add_space = true
+ij_typescript_wrap_comments = true
+ij_typescript_line_comment_at_first_column = true
+ij_typescript_while_brace_force = always
+ij_typescript_use_public_modifier = false
+ij_any_if_brace_force = always
+ij_editorconfig_align_group_field_declarations = false
+
+# JSON Files
+[{.prettierrc, .eslintrc, jest.config, .madgerc, .stylelintrc, .babelrc, bowerrc, *.json}]
+indent_size = 2
+ij_json_keep_blank_lines_in_code = 0
+ij_json_keep_indents_on_empty_lines = false
+ij_json_keep_line_breaks = true
+ij_json_space_after_colon = true
+ij_json_space_after_comma = true
+ij_json_space_before_colon = true
+ij_json_space_before_comma = false
+ij_json_spaces_within_braces = false
+ij_json_spaces_within_brackets = false
+ij_json_wrap_long_lines = false

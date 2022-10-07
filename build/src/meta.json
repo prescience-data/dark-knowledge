@@ -1,0 +1,26 @@
+{
+  "files": [
+    {
+      "name": "2021 - Fingerprinting in Style - Detecting Browser Extensions via Injected Style Sheets",
+      "topics": ["Fingerprint", "Extensions"],
+      "authors": ["Pierre Laperdrix"],
+      "promoted": false
+    },
+    {
+      "name": "2021 - The CNAME of the Game - Large-scale Analysis of DNS-based Tracking Evasion",
+      "topics": ["DNS"],
+      "authors": ["Yana Dimova"],
+      "promoted": false
+    }
+  ],
+  "authors": [
+    {
+      "name": "Pierre Laperdrix",
+      "url": "https://plaperdr.github.io/"
+    },
+    {
+      "name": "Yana Dimova",
+      "url": "https://arxiv.org/search/cs?searchtype=author&query=Dimova%2C+Y"
+    }
+  ]
+}

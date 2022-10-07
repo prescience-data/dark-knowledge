@@ -1,7 +1,0 @@
-services:
-  pdf2htmlex:
-    container_name: dark-knowledge
-    build:
-      context: ..
-      dockerfile: ./docker/Dockerfile
-    init: true
