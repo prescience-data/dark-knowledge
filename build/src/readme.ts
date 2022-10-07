@@ -1,8 +1,8 @@
-import { writeFile } from "fs-extra"
-import { contentSize, getPdfFiles, readmePath, useFile } from "./support"
-import { TemplateOptions } from "./types"
+import {writeFile} from "fs-extra"
+import {contentSize, getPdfFiles, readmePath, useFile} from "./support"
+import {TemplateOptions} from "./types";
 
-;(async () => {
+(async () => {
   console.log(`Generating README.md`)
 
   const filenames: string[] = await getPdfFiles()
@@ -33,8 +33,9 @@ import { TemplateOptions } from "./types"
       `😈📚 A curated library of research papers and presentations for counter-detection and web privacy enthusiasts.`,
       ` `,
       `## Contributing`,
-      `_Found an interesting paper you think might fit? Feel free to open an issue or PR!_`,
-      `If anyone has time, would be awesome to get PRs adding context to [meta.json](https://github.com/prescience-data/dark-knowledge/blob/main/build/meta.json)`,
+      `1. _Found an interesting paper you think might fit? Feel free to open an issue or PR!_`,
+      ``,
+      `2. If anyone has time, would be awesome to get PRs adding context to [meta.json](https://github.com/prescience-data/dark-knowledge/blob/main/build/meta.json)`,
       ` `,
       `| Year | Title | PDF | Topics | Authors |`,
       `|------|-------|-----|--------|---------|`,

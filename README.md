@@ -4,8 +4,9 @@
 😈📚 A curated library of research papers and presentations for counter-detection and web privacy enthusiasts.
 
 ## Contributing
-_Found an interesting paper you think might fit? Feel free to open an issue or PR!_
-If anyone has time, would be awesome to get PRs adding context to [meta.json](https://github.com/prescience-data/dark-knowledge/blob/main/build/meta.json)
+1. _Found an interesting paper you think might fit? Feel free to open an issue or PR!_
+
+2. If anyone has time, would be awesome to get PRs adding context to [meta.json](https://github.com/prescience-data/dark-knowledge/blob/main/build/meta.json)
 
 | Year | Title | PDF | Topics | Authors |
 |------|-------|-----|--------|---------|
