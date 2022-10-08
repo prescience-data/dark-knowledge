@@ -5,6 +5,12 @@
       "topics": ["Fingerprint", "Extensions"],
       "authors": ["Pierre Laperdrix"],
       "promoted": false
+    },
+    {
+      "name": "2022 - Phish in Sheeps Clothing Exploring Pitfalls of Browser Fingerprinting",
+      "topics": ["Fingerprint", "Security", "2FA"],
+      "authors": ["Xu Lin", "Panagiotis Ilia", "Saumya Solanki", "Jason Polakis"],
+      "promoted": false
     }
   ]
 }
