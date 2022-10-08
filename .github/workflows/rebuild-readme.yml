@@ -20,7 +20,7 @@ jobs:
           node-version: 18
       - name: Build
         run: |
-          npm install -g pnpm
+          npm install -g pnpm dprint
           cd build
           pnpm lint
           pnpm build
