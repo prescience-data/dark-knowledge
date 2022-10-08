@@ -35,8 +35,7 @@ export interface FileMeta {
   name: string
   topics?: string[]
   authors?: string[]
-  promoted?: boolean,
-  source?: string[]
+  promoted?: boolean
 }
 
 export interface Meta {
