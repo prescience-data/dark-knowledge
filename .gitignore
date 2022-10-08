@@ -1,3 +1,4 @@
 .vscode/
 .idea/
 *.old.md
+node_modules/
