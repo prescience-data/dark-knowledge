@@ -21,9 +21,10 @@ jobs:
       - name: Build
         run: |
           npm install -g pnpm
-          cd src
           pnpm lint
           pnpm build
+        with:
+          cwd: "./build"
       - uses: EndBug/add-and-commit@v9
         with:
           message: "ci: readme"
