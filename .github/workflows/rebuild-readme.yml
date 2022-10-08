@@ -1,0 +1,30 @@
+name: Rebuild README
+on:
+  push:
+    branches: main
+    paths-ignore:
+      - "src/**"
+  workflow_dispatch:
+jobs:
+  run:
+    name: Rebuild README.md
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0 # checkout full history
+      - name: Setup Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+      - name: Build
+        run: |
+          npm install -g pnpm
+          pnpm lint
+          pnpm build
+      - uses: EndBug/add-and-commit@v9
+        with:
+          message: "ci: readme"
+          add: README.md
+
