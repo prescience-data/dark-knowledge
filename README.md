@@ -11,6 +11,7 @@
 | Year | Title | PDF | Topics | Authors |
 |------|-------|-----|--------|---------|
 | 2022 | SMS PVA - An Underground Service Enabling Threat Actors to Register Bulk Fake Accounts | [PDF](https://github.com/prescience-data/dark-knowledge/blob/main/pdf/2022%20-%20SMS%20PVA%20-%20An%20Underground%20Service%20Enabling%20Threat%20Actors%20to%20Register%20Bulk%20Fake%20Accounts.pdf) |  |  |
+| 2022 | Phish in Sheeps Clothing Exploring Pitfalls of Browser Fingerprinting | [PDF](https://github.com/prescience-data/dark-knowledge/blob/main/pdf/2022%20-%20Phish%20in%20Sheeps%20Clothing%20Exploring%20Pitfalls%20of%20Browser%20Fingerprinting.pdf) | Security, 2FA | Xu Lin, Panagiotis Ilia, Saumya Solanki, Jason Polakis |
 | 2022 | DRAWNAPART - A Device Identification Technique based on Remote GPU Fingerprinting | [PDF](https://github.com/prescience-data/dark-knowledge/blob/main/pdf/2022%20-%20DRAWNAPART%20-%20A%20Device%20Identification%20Technique%20based%20on%20Remote%20GPU%20Fingerprinting.pdf) |  |  |
 | 2021 | Your Phone is My Proxy - Detecting and Understanding Mobile Proxy Networks | [PDF](https://github.com/prescience-data/dark-knowledge/blob/main/pdf/2021%20-%20Your%20Phone%20is%20My%20Proxy%20-%20Detecting%20and%20Understanding%20Mobile%20Proxy%20Networks.pdf) |  |  |
 | 2021 | TypeNet - Deep Learning Keystrong Biometrics | [PDF](https://github.com/prescience-data/dark-knowledge/blob/main/pdf/2021%20-%20TypeNet%20-%20Deep%20Learning%20Keystrong%20Biometrics.pdf) |  |  |
