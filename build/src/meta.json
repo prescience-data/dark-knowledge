@@ -11,6 +11,12 @@
       "topics": ["DNS"],
       "authors": ["Yana Dimova"],
       "promoted": false
+    },
+    {
+      "name": "2022 - Phish in Sheeps Clothing Exploring Pitfalls of Browser Fingerprinting",
+      "topics": ["Security", "2FA"],
+      "authors": ["Xu Lin", "Panagiotis Ilia", "Saumya Solanki", "Jason Polakis"],
+      "promoted": false
     }
   ],
   "authors": [
