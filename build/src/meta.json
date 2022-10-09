@@ -14,7 +14,7 @@
     },
     {
       "name": "2022 - AudioContext Browser Fingerprinting",
-      "topics": ["AudioContext", "ML"],
+      "topics": ["AudioContext", "ML", "Device Verification", "Device Identification"],
       "authors": ["Josef Frola"],
       "promoted": false
     }
