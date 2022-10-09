@@ -13,9 +13,9 @@
       "promoted": false
     },
     {
-      "name": "2022 - Phish in Sheeps Clothing Exploring Pitfalls of Browser Fingerprinting",
-      "topics": ["Security", "2FA"],
-      "authors": ["Xu Lin", "Panagiotis Ilia", "Saumya Solanki", "Jason Polakis"],
+      "name": "2022 - AudioContext Browser Fingerprinting",
+      "topics": ["AudioContext", "ML", "Device Verification", "Device Identification"],
+      "authors": ["Josef Frola"],
       "promoted": false
     }
   ],
@@ -27,6 +27,10 @@
     {
       "name": "Yana Dimova",
       "url": "https://arxiv.org/search/cs?searchtype=author&query=Dimova%2C+Y"
+    },
+    {
+      "name": "Josef Frola",
+      "url": "linkedin.com/in/josef-frola-650435169"
     }
   ]
 }
