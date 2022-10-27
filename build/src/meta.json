@@ -17,6 +17,12 @@
       "topics": ["AudioContext", "ML", "Device Verification", "Device Identification"],
       "authors": ["Josef Frola"],
       "promoted": false
+    },
+    {
+      "name": "2022 - Browser-based CPU Fingerprinting",
+      "topics": ["CPU Fingerprinting", "Timing Attacks"],
+      "authors": ["Leon Trampert", "Christian Rossow", "Michael Schwarz"],
+      "promoted": false
     }
   ],
   "authors": [
