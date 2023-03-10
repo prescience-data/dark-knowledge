@@ -1,5 +1,11 @@
-{
+  {
   "files": [
+    {
+      "name": "2023 - A Two-Step TLS-Based Browser fingerprinting approach using combinatorial sequences",
+      "topics": ["Fingerprint", "TLS", "Combinatorics"],
+      "authors": ["Bernhard Garn", "Stefan Zauner", "Dimitris E. Simos", "Manuel Leithner", "Richard Kuhn", "Raghu Kacker"],
+      "promoted": false
+    },
     {
       "name": "2021 - Fingerprinting in Style - Detecting Browser Extensions via Injected Style Sheets",
       "topics": ["Fingerprint", "Extensions"],
@@ -26,6 +32,10 @@
     }
   ],
   "authors": [
+    {
+      "name": "Bernhard Garn",
+      "url": "https://www.sba-research.org/team/bernhard-garn/"
+    },
     {
       "name": "Pierre Laperdrix",
       "url": "https://plaperdr.github.io/"
