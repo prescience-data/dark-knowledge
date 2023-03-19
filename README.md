@@ -10,6 +10,7 @@
 
 | Year | Title | PDF | Topics | Authors |
 |------|-------|-----|--------|---------|
+| 2023 | A Two-Step TLS-Based Browser fingerprinting approach using combinatorial sequences | [PDF](https://github.com/prescience-data/dark-knowledge/blob/main/pdf/2023%20-%20A%20Two-Step%20TLS-Based%20Browser%20fingerprinting%20approach%20using%20combinatorial%20sequences.pdf) | Fingerprint, TLS, Combinatorics | [Bernhard Garn](https://www.sba-research.org/team/bernhard-garn/), Stefan Zauner, Dimitris E. Simos, Manuel Leithner, Richard Kuhn, Raghu Kacker |
 | 2022 | SMS PVA - An Underground Service Enabling Threat Actors to Register Bulk Fake Accounts | [PDF](https://github.com/prescience-data/dark-knowledge/blob/main/pdf/2022%20-%20SMS%20PVA%20-%20An%20Underground%20Service%20Enabling%20Threat%20Actors%20to%20Register%20Bulk%20Fake%20Accounts.pdf) |  |  |
 | 2022 | Phish in Sheeps Clothing Exploring Pitfalls of Browser Fingerprinting | [PDF](https://github.com/prescience-data/dark-knowledge/blob/main/pdf/2022%20-%20Phish%20in%20Sheeps%20Clothing%20Exploring%20Pitfalls%20of%20Browser%20Fingerprinting.pdf) |  |  |
 | 2022 | DRAWNAPART - A Device Identification Technique based on Remote GPU Fingerprinting | [PDF](https://github.com/prescience-data/dark-knowledge/blob/main/pdf/2022%20-%20DRAWNAPART%20-%20A%20Device%20Identification%20Technique%20based%20on%20Remote%20GPU%20Fingerprinting.pdf) |  |  |
