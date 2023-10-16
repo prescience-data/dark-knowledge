@@ -20,8 +20,8 @@ async function main() {
 
     😈📚 A curated library of research papers and presentations for counter-detection and web privacy enthusiasts.
 
-    | Year | Title | PDF | Topics | Authors |
-    |------|-------|-----|--------|---------|
+    | Year | Title | Topics | Authors |
+    |------|-------|--------|---------|
   `.trim().split("\n")]
 
   console.log(`Built header...`)
@@ -29,7 +29,7 @@ async function main() {
 
   for (const {year, title, filename, topics, authors} of meta) {
     readme.push( /* language=md */ `
-      | ${year} | ${title} | [PDF]("${encodeURI(`https://github.com/prescience-data/dark-knowledge/blob/main/pdf/${filename}`)}") | ${(topics ?? []).join(", ")} | ${(authors ?? []).join(", ")} |
+      | ${year} | [${title}](${encodeURI(`https://github.com/prescience-data/dark-knowledge/blob/main/pdf/${filename}`)}) | ${(topics ?? []).join(", ")} | ${(authors ?? []).join(", ")} |
     `)
   }
 
