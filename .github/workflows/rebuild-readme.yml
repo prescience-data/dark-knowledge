@@ -20,13 +20,10 @@ jobs:
           node-version: 18
       - name: Build
         run: |
-          npm install -g pnpm dprint
-          cd build
-          pnpm install --frozen-lockfile --no-optional
-          pnpm lint
-          pnpm build
+          node ./scripts/sync.mjs
+          node ./scripts/build.mjs
       - uses: EndBug/add-and-commit@v9
         with:
-          message: "ci: readme"
+          message: "ci: build"
           add: README.md
 
