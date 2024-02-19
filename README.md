@@ -1,8 +1,10 @@
-![image](https://user-images.githubusercontent.com/65471523/116797719-39b4e800-ab2c-11eb-997b-4fef59e99d17.png)
+![Banner](https://user-images.githubusercontent.com/65471523/116797719-39b4e800-ab2c-11eb-997b-4fef59e99d17.png)
 
 # Dark Knowledge
 
 😈📚 A curated library of research papers and presentations for counter-detection and web privacy enthusiasts.
+
+[![Undetect-Bannner](https://github.com/prescience-data/dark-knowledge/assets/65471523/cd905289-3eb1-4cee-a189-80cff0419a76)](https://undetect.io)
 
 | Year | Title | Topics | Authors |
 |------|-------|--------|---------|
